@@ -1,3 +1,6 @@
+import AssignmentCleanupFunction from "./components/use-effect/AssignmentCleanupFunction";
+import AssignmentCleanupFunctionSpeed from "./components/use-effect/AssignmentCleanupFunctionSpeed";
+import CleanupFunction from "./components/use-effect/CleanupFunction";
 import HomeWork from "./components/use-effect/HomeWork";
 import MovieList from "./components/use-effect/MovieList";
 import Posts from "./components/use-effect/Posts";
@@ -9,7 +12,10 @@ const App = () => {
   // return <HomeWork />;
   // retu<rn <Posts />;
   // return <PostsAsyncAwait />;
-  return <MovieList />;
+  // return <MovieList />;
+  // return <CleanupFunction />;
+  // return <AssignmentCleanupFunction />;
+  return <AssignmentCleanupFunctionSpeed />;
 };
 
 export default App;
